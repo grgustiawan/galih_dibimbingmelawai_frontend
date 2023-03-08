@@ -40,7 +40,7 @@
                 </div>
 
                 <div class="user-panel" v-if="isAdmin">
-                    <li class="nav-header" style="letter-spacing: 2pt;">REVIEWS</li>
+                    <li class="nav-header" style="letter-spacing: 2pt;">ACTION</li>
                     <li class="nav-item">
                     <router-link class="nav-link" :to="{name : 'manageobat'}" :class="{active: $route.name==='manageobat'}">
                         <i class="nav-icon fas fa-capsules"></i>
